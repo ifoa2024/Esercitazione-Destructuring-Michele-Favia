@@ -114,28 +114,56 @@
 // console.log(`Colore 3: ${colore3}`); 
 // Esercizio 3
 // Creazione dell'oggetto libro
-const libro = {
-    titolo: "Il Signore degli Anelli",
-    autore: {
-      nome: "J.R.R.",
-      cognome: "Tolkien",
-    },
-    pagine: 1178,
-  };
+// const libro = {
+//     titolo: "Il Signore degli Anelli",
+//     autore: {
+//       nome: "J.R.R.",
+//       cognome: "Tolkien",
+//     },
+//     pagine: 1178,
+//   };
   
-  // Destructuring annidato per estrarre titolo e cognome dell'autore
-  const { titolo, autore: { cognome } } = libro;
+//   // Destructuring annidato per estrarre titolo e cognome dell'autore
+//   const { titolo, autore: { cognome } } = libro;
   
-  // Stampa dei valori estratti
-  console.log(`Titolo del libro: ${titolo}`);    // Output: Titolo del libro: Il Signore degli Anelli
-  console.log(`Cognome dell'autore: ${cognome}`); // Output: Cognome dell'autore: Tolkien
+//   // Stampa dei valori estratti
+//   console.log(`Titolo del libro: ${titolo}`);    // Output: Titolo del libro: Il Signore degli Anelli
+//   console.log(`Cognome dell'autore: ${cognome}`); // Output: Cognome dell'autore: Tolkien
   
 
   // Esercizio 4
+
+  // Creazione dell'oggetto prodotto
+// const prodotto = {
+//     nome: "Laptop",
+//     prezzo: 999,
+//     categoria: "Elettronica",
+//     brand: "TechBrand",
+//     disponibilita: "In magazzino",
+//   };
+  
+//   // Destructuring con rest operator
+//   const { nome, prezzo, ...altreProprieta } = prodotto;
+  
+//   // Stampa delle variabili estratte
+//   console.log(`Nome del prodotto: ${nome}`); 
+//   console.log(`Prezzo del prodotto: €${prezzo}`); 
+//   console.log("Altre proprietà:", altreProprieta);
   
   
 
+  // Esercizio 5
 
+// Creazione dei due array
+// const numeri1 = [1, 2, 3];
+// const numeri2 = [5, 6, 7];
+
+// // Utilizzo dello spread operator per combinare gli array e aggiungere un valore all'inizio
+// const nuoviNumeri = [0, ...numeri1, 4, ...numeri2];
+
+// // Stampa del nuovo array
+// console.log("Nuovo array:", nuoviNumeri);
+// // Output: Nuovo array: [0, 1, 2, 3, 4, 5, 6]
 
 
 
